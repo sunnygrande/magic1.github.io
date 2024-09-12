@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Search Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text Search Website</h1>
+        <!-- Form for adding text -->
+        <form id="add-text-form">
+            <textarea id="text-input" placeholder="Add your text here..." required></textarea>
+            <button type="submit">Add Text</button>
+        </form>
+
+        <!-- Form for searching text -->
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Search for words..." required>
+            <button type="submit">Search</button>
+        </form>
+
+        <!-- Display search results -->
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
